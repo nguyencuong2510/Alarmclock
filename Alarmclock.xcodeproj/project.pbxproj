@@ -8,24 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0140D58F212B9A5D0095150B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D58E212B9A5D0095150B /* AppDelegate.swift */; };
-		0140D591212B9A5D0095150B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D590212B9A5D0095150B /* ViewController.swift */; };
+		0140D591212B9A5D0095150B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D590212B9A5D0095150B /* AlarmViewController.swift */; };
 		0140D594212B9A5D0095150B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0140D592212B9A5D0095150B /* Main.storyboard */; };
 		0140D597212B9A5D0095150B /* Alarmclock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0140D595212B9A5D0095150B /* Alarmclock.xcdatamodeld */; };
 		0140D599212B9A5F0095150B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0140D598212B9A5F0095150B /* Assets.xcassets */; };
 		0140D59C212B9A5F0095150B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0140D59A212B9A5F0095150B /* LaunchScreen.storyboard */; };
 		0140D5A4212B9C4C0095150B /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D5A3212B9C4C0095150B /* AddAlarmViewController.swift */; };
+		0140D5A8212B9FBB0095150B /* LastCellSettingAddAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D5A7212B9FBB0095150B /* LastCellSettingAddAlarm.swift */; };
+		0140D5AA212BA0780095150B /* Enum+All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D5A9212BA0780095150B /* Enum+All.swift */; };
+		0140D5AC212BA2EA0095150B /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D5AB212BA2EA0095150B /* RepeatViewController.swift */; };
+		0140D5AF212BA54A0095150B /* AlarmCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0140D5AE212BA54A0095150B /* AlarmCollectionViewCell.xib */; };
+		0140D5B1212BA5E30095150B /* AlarmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D5B0212BA5E30095150B /* AlarmCollectionViewCell.swift */; };
+		0140D5B5212BAB8B0095150B /* AlarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140D5B4212BAB8B0095150B /* AlarmData.swift */; };
+		01A7C9DA212C0A8500237D6E /* Extension+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A7C9D9212C0A8500237D6E /* Extension+AppDelegate.swift */; };
+		01CCB4D1212BD19B002BD6EC /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CCB4D0212BD19B002BD6EC /* Extension+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0140D58B212B9A5D0095150B /* Alarmclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarmclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0140D58E212B9A5D0095150B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0140D590212B9A5D0095150B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0140D590212B9A5D0095150B /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		0140D593212B9A5D0095150B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0140D596212B9A5D0095150B /* Alarmclock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alarmclock.xcdatamodel; sourceTree = "<group>"; };
 		0140D598212B9A5F0095150B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0140D59B212B9A5F0095150B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0140D59D212B9A5F0095150B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0140D5A3212B9C4C0095150B /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		0140D5A7212B9FBB0095150B /* LastCellSettingAddAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCellSettingAddAlarm.swift; sourceTree = "<group>"; };
+		0140D5A9212BA0780095150B /* Enum+All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enum+All.swift"; sourceTree = "<group>"; };
+		0140D5AB212BA2EA0095150B /* RepeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
+		0140D5AE212BA54A0095150B /* AlarmCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmCollectionViewCell.xib; sourceTree = "<group>"; };
+		0140D5B0212BA5E30095150B /* AlarmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCollectionViewCell.swift; sourceTree = "<group>"; };
+		0140D5B4212BAB8B0095150B /* AlarmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmData.swift; sourceTree = "<group>"; };
+		01A7C9D9212C0A8500237D6E /* Extension+AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AppDelegate.swift"; sourceTree = "<group>"; };
+		01CCB4D0212BD19B002BD6EC /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +74,64 @@
 		0140D58D212B9A5D0095150B /* Alarmclock */ = {
 			isa = PBXGroup;
 			children = (
-				0140D58E212B9A5D0095150B /* AppDelegate.swift */,
-				0140D590212B9A5D0095150B /* ViewController.swift */,
+				0140D5B3212BAB700095150B /* Model */,
+				0140D5B2212BAAE90095150B /* Unitity */,
 				0140D592212B9A5D0095150B /* Main.storyboard */,
-				0140D5A3212B9C4C0095150B /* AddAlarmViewController.swift */,
-				0140D598212B9A5F0095150B /* Assets.xcassets */,
-				0140D59A212B9A5F0095150B /* LaunchScreen.storyboard */,
-				0140D59D212B9A5F0095150B /* Info.plist */,
+				0140D5A6212B9CCE0095150B /* Controller */,
+				0140D5AD212BA4DC0095150B /* ViewCell */,
+				0140D5A5212B9C9D0095150B /* SupportFile */,
 				0140D595212B9A5D0095150B /* Alarmclock.xcdatamodeld */,
 			);
 			path = Alarmclock;
+			sourceTree = "<group>";
+		};
+		0140D5A5212B9C9D0095150B /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				0140D58E212B9A5D0095150B /* AppDelegate.swift */,
+				0140D598212B9A5F0095150B /* Assets.xcassets */,
+				0140D59A212B9A5F0095150B /* LaunchScreen.storyboard */,
+				0140D59D212B9A5F0095150B /* Info.plist */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		0140D5A6212B9CCE0095150B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0140D590212B9A5D0095150B /* AlarmViewController.swift */,
+				0140D5A3212B9C4C0095150B /* AddAlarmViewController.swift */,
+				0140D5AB212BA2EA0095150B /* RepeatViewController.swift */,
+				0140D5A7212B9FBB0095150B /* LastCellSettingAddAlarm.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0140D5AD212BA4DC0095150B /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0140D5AE212BA54A0095150B /* AlarmCollectionViewCell.xib */,
+				0140D5B0212BA5E30095150B /* AlarmCollectionViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		0140D5B2212BAAE90095150B /* Unitity */ = {
+			isa = PBXGroup;
+			children = (
+				0140D5A9212BA0780095150B /* Enum+All.swift */,
+				01CCB4D0212BD19B002BD6EC /* Extension+UIViewController.swift */,
+				01A7C9D9212C0A8500237D6E /* Extension+AppDelegate.swift */,
+			);
+			path = Unitity;
+			sourceTree = "<group>";
+		};
+		0140D5B3212BAB700095150B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0140D5B4212BAB8B0095150B /* AlarmData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0140D5AF212BA54A0095150B /* AlarmCollectionViewCell.xib in Resources */,
 				0140D59C212B9A5F0095150B /* LaunchScreen.storyboard in Resources */,
 				0140D599212B9A5F0095150B /* Assets.xcassets in Resources */,
 				0140D594212B9A5D0095150B /* Main.storyboard in Resources */,
@@ -141,10 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0140D5AC212BA2EA0095150B /* RepeatViewController.swift in Sources */,
+				01CCB4D1212BD19B002BD6EC /* Extension+UIViewController.swift in Sources */,
 				0140D5A4212B9C4C0095150B /* AddAlarmViewController.swift in Sources */,
-				0140D591212B9A5D0095150B /* ViewController.swift in Sources */,
+				0140D591212B9A5D0095150B /* AlarmViewController.swift in Sources */,
+				01A7C9DA212C0A8500237D6E /* Extension+AppDelegate.swift in Sources */,
 				0140D597212B9A5D0095150B /* Alarmclock.xcdatamodeld in Sources */,
+				0140D5B1212BA5E30095150B /* AlarmCollectionViewCell.swift in Sources */,
 				0140D58F212B9A5D0095150B /* AppDelegate.swift in Sources */,
+				0140D5B5212BAB8B0095150B /* AlarmData.swift in Sources */,
+				0140D5AA212BA0780095150B /* Enum+All.swift in Sources */,
+				0140D5A8212B9FBB0095150B /* LastCellSettingAddAlarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Alarmclock/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Alarmclock/SupportFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Alarmclock/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Alarmclock/SupportFile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
